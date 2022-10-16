@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  /* background-image: url(./image/bk01.jpg) ; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  
+}
+.content-all{
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff80;
+  box-shadow: rgb(145 158 171 / 20%) 0px 0px 2px 0px, rgb(145 158 171 / 12%) 0px 12px 24px -4px;
+}
+.image-content{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.text-font{
+  font-family: 'Poiret One', cursive;
+  font-size:1.2rem;
+  text-align: center;
+}
+.title-font{
+  font-family: 'Parisienne', cursive;
+
+}
+.sentence{
+  font-size:1.8rem;
+  color:#535130
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color: #78433e;
+  font-family:'Amatic SC', cursive;
+}
+.line{
+  display: flex;
+  justify-content: space-around;
+  color: #7b7b55;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #7b7b55;
+  text-align: center;
+}
+.date{
+  display: flex;
+  justify-content: center;
+  color:#997a65;
+  font-size: 1rem;
+}
+.names{
+  display: flex;
+  justify-content: center;
+  color: #78433e;
+  font-size: 4rem;
+  text-align: center;
+
+}
+.images{
+  display: flex;
+}
+.ramo{
+  transform: rotate(90deg);
+  height: 20px;
+}
+.image{
+  width: 12rem;
+  border-radius: 30px;
+}
+.photo1{
+  transform: rotate(350deg);
+}
+.photo2{
+  transform: rotate(10deg);
+}
+.photo3{
+  transform: rotate(350deg);
+}
+.introduction{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.intro-content{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+.information-content{
+  padding: 2rem 0 ;
+}
+.date-information{
+  font-size: 2rem;
+  font-family:'Amatic SC', cursive;
+
+}
+.icon-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+.icon-format{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.icons{
+  width: 3rem;
+}
+#photo4{
+  display: none;
+}
+@media(max-width:500px){
+.image{
+  width:7rem;
+}
+.names{
+  font-size: 2.5rem;
+}
+.sentence{
+  font-size:1.2rem;
+}
+.image-content{
+  justify-content: center;
+}
+.icons{
+  width:36px;
+}
+.font-icons{
+  font-size: 16px;
+}
+#photo4{
+  display: flex;
+}
+
+}
